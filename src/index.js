@@ -1,9 +1,9 @@
 
 
-module.exports = function reverse (i) 
+module.exports = function reverse (n) 
 {
-    let result = i[i.length -1];
-    for(let n = i.length - 2; n >= 0; n=n-1)
-    result = result + i[n];
+    let result = n[n.length -1];
+    for(let i = n.length - 2; i >= 0; i=i-1)
+    result = result + n[i];
  return result;
 }
